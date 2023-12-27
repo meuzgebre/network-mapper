@@ -1,0 +1,21 @@
+{
+    "network_mapper": {
+      "log_level": "info",
+      "data_dir": "/path/to/data",
+      "api_key": "your_api_key",
+      "timeout": 10
+    },
+    "database": {
+      "host": "localhost",
+      "port": 5432,
+      "username": "db_user",
+      "password": "db_password",
+      "name": "your_database"
+    },
+    "ui": {
+      "theme": "dark",
+      "font_size": 14,
+      "enable_analytics": true
+    }
+  }
+  

@@ -1,0 +1,27 @@
+{
+    "nodes": [
+      {
+        "id": "node_1",
+        "label": "Router A",
+        "type": "Router",
+        "ip_address": "192.168.1.1",
+        "neighbors": ["node_2", "node_3"]
+      },
+      {
+        "id": "node_2",
+        "label": "Switch 1",
+        "type": "Switch",
+        "ip_address": "192.168.1.2",
+        "neighbors": ["node_1", "node_3"]
+      }
+    ],
+    "edges": [
+      {
+        "id": "edge_1",
+        "source": "node_1",
+        "target": "node_2",
+        "weight": 1.5
+      }
+    ]
+  }
+  
